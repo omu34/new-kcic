@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@font-face {
+  font-family: "poppins-bold";
+  src: url("fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "poppins-black";
+  src: url("Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "poppins-medium";
+  src: url("fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "poppins-regular";
+  src: url("fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .md:text-left {
+    text-align: center;
+    font-size: 24px;
+  }
+  /* Add grid grid-cols-2 and text-sm */
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .text-sm {
+    font-size: 0.875rem;
+    /* You can adjust the font size as needed */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .md:text-left {
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .md:text-left {
+    text-align: left;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .md:text-left {
+    text-align: left;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .md:text-left {
+    text-align: left;
+  }
+}
+
+.title-1 {
+  color: #fff;
+  font-family: poppins-bold;
+  font-size: 52px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 170%;
+  /* 88.4px */
+  text-transform: capitalize;
+}
+
+.bg-image {
+  width: 1438.148px;
+  height: 704.693px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.title-bg {
+  color: #fff;
+  font-family: poppins-bold;
+  font-size: 52px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 170%;
+  /* 88.4px */
+  text-transform: capitalize;
+}
+
+.but-11 {
+  border: 1.863px solid var(--Faded-Black, #706b6b);
+}
+
+.a1 {
+  color: var(--Light-Black, #232323);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.a2 {
+  color: #fff;
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.a3 {
+  color: var(--White, #fefefe);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 17.258px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.a4 {
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.but1 {
+  display: flex;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Green, #5faf46);
+  backdrop-filter: blur(40px);
+}
+
+.but-t {
+  color: var(--White, #fefefe);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.but-t1 {
+  color: var(--White, #000);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.logos {
+  color: var(--Green, #5faf46);
+  font-family: poppins-medium;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about {
+  color: var(--Black, #1e1e1e);
+  font-family: poppins-black;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.918px;
+  text-transform: uppercase;
+  transform: rotate(360deg);
+}
+
+.title-s {
+  color: var(--Black, #1e1e1e);
+  font-family: poppins-bold;
+  font-size: 46.021px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 120%; /* 55.225px */
+}
+
+.p-1 {
+  color: var(--Secondary-text, #525560);
+  font-family: poppins-regular;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24.544px */
+}
+.s-what {
+  color: var(--Black, #1e1e1e);
+  font-family: poppins-medium;
+  font-size: 24.01px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.num {
+  color: var(--Green, #5faf46);
+  font-family: poppins-regular;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+
+.num-w {
+  color: var(--Light-Black, #232323);
+  text-align: center;
+  font-family: poppins-medium;
+  font-size: 16.093px;
+  font-style: normal;
+  font-weight: 4500;
+  line-height: 30.681px; /* 145.455% */
+}
+
+.client-t {
+  color: var(--White, #fefefe);
+  font-family: poppins-bold;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: normal;
+}
+.client-p {
+  color: var(--White, #fefefe);
+  font-family: poppins-regular;
+  font-size: 16px;
+  font-style: regular;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.client-bw {
+  color: var(--Light-Black, #232323);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.donors {
+  color: var(--Primary-text, #1d2130);
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.918px;
+  text-transform: uppercase;
+}
+.policy {
+  align-self: stretch;
+  color: var(--Lighter-Green, #037856);
+  text-align: center;
+  font-family: poppins-medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+  letter-spacing: -0.72px;
+}
+
+.blog-t {
+  color: #fff;
+  font-family: poppins-medium;
+  font-size: 23.01px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 34.516px */
+}
+
+.b-par {
+  color: #fff;
+  font-family: poppins-regular;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24.544px */
+}
+.b-but {
+  color: var(--Light-Black, #232323);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sign-t {
+  color: var(--Light-Black, #232323);
+  text-align: right;
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  align-self: stretch;
+}
+.sign-p {
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-regular;
+  font-size: 19.974px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.961px; /* 150% */
+}
+.email-pla {
+  flex: 1 0 0;
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-regular;
+  font-size: 15.979px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.969px; /* 150% */
+}
+
+.email-p {
+  align-self: stretch;
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-regular;
+  font-size: 13.982px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.974px; /* 142.857% */
+}
+.privacy {
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-regularr;
+  font-size: 13.982px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.974px;
+  text-decoration-line: underline;
+}
+
+.f {
+  color: var(--Dark-Gray, #525560);
+  font-family: poppins-medium;
+  font-size: 15.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
